@@ -1,0 +1,235 @@
+
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #F7F7F7; 
+  color: #333333; 
+}
+header {
+  background-color: #333333;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: #FFA500;
+  text-align: right;
+}
+.icons a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #CCCCCC; 
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #CCCCCC;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #FFA500; 
+}
+#hero {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #333333, #FFA500, #CCCCCC, #FFFFFF);
+}
+.text {
+  position: absolute;
+  top: 50%;
+  right: 10%; 
+  transform: translateY(-50%);
+  color:  #FFA500;
+  text-align: right;
+}
+.text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 18px;
+  color: #000;
+}
+.order-online-btn {
+  display: inline-block;
+  background-color: #FFA500;
+  color: #333333;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.order-online-btn:hover {
+  background-color: #CC4D00;
+}
+#main-content {
+  padding: 40px;
+  background: linear-gradient(135deg, #333333, #FFA500, #CCCCCC, #FFFFFF);
+}
+#deals {
+  text-align: center;
+}
+#deals h2 {
+  font-size: 32px;
+  color: #333333;
+}
+
+.subheading {
+  font-size: 18px;
+  color: #777; 
+  margin-bottom: 20px; 
+}
+
+footer {
+  background-color: #333333;
+  color: #CCCCCC;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact,
+.about-us,
+.opening-hours {
+  flex: 1;
+  margin-right: 20px;
+}
+p{
+  text-align: center;
+}
+
+
+.contact h3,
+.about-us h3,
+.opening-hours h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  .icons {
+      margin-top: 10px;
+  }
+
+  nav {
+      margin-top: 20px;
+  }
+
+  .text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+  }
+
+  .video {
+      position: relative;
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  #main-content {
+      padding: 20px;
+      background: linear-gradient(135deg, #333333, #FFA500, #CCCCCC, #FFFFFF);
+  }
+
+  .contact,
+  .about-us,
+  .opening-hours {
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+
+  footer {
+      flex-direction: column;
+  }
+}
+
+#order-now {
+  margin-top: 40px;
+  text-align: center;
+  background: linear-gradient(135deg, #333333, #FFA500, #CCCCCC, #FFFFFF);
+}
+
+#order-now h2 {
+  font-size: 24px;
+}
+
+#order-now form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#order-now label {
+  display: block;
+  margin-top: 10px;
+}
+
+#order-now input,
+#order-now select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.order-now-btn {
+  background-color: #FFA500;
+  color: #333333;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: large;
+  text-decoration: none;
+}
+
+
+#order-now button:hover {
+  background-color: #E65A00;
+}
+
+@media screen and (max-width: 768px) {
+} 
+
+.video-container {
+  width: 420px; 
+  height: 345px; 
+  margin-right: 20px; 
+}
+
+iframe {
+  width: 60%;
+  height: 100%;
+}
+
+#menu h3{
+   text-align: left;
+}
